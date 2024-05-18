@@ -34,21 +34,21 @@ public class Type4Insert{
        
        st=con.createStatement();
        
-       String query ="insert into emp values('108','ABCD','100','indore');";
+       String query ="insert into emp values('100','KUNWAR SINGH','1400','PITHAMPUR');";
        
        int i=st.executeUpdate(query);
        
        if(i>0){
        
            
-           System.out.println("record Inserted..");
+           System.out.println("Record Inserted..");
                
             
        }
        else{
        
        
-       System.out.println("Record insertion fail");
+       System.out.println("Record insertion failed");
        
        }
       
