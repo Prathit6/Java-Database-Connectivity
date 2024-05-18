@@ -16,3 +16,8 @@ https://github.com/Prathit6/Java-Database-Connectivity/blob/main/src/testdatabas
 
 ### 2. Create Connection
 Establish a connection to the Oracle database using the connection URL, username, and password:
+https://github.com/Prathit6/Java-Database-Connectivity/blob/main/src/testdatabase06/Type4Select.java#L36
+
+### 3. Create Statement
+Create a statement object to execute queries:
+
