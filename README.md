@@ -56,6 +56,8 @@ The `PreparedStatement` interface is a subinterface of `Statement` and is used t
 java
 String sql = "INSERT INTO emp VALUES (?, ?, ?)";
 PreparedStatement pstmt = con.prepareStatement(sql);
+
+
 pstmt.setInt(1, 1); 
 pstmt.setString(2, "Ram"); 
 pstmt.setDouble(3, 5000.00); 
